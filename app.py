@@ -59,10 +59,11 @@ st.markdown("""
 # =========================================================
 # FILE PATHS
 # =========================================================
-MODEL_PATH = "best_raincast_model.pkl"
-SCALER_PATH = "raincast_scaler.pkl"
-FEATURES_PATH = "raincast_feature_columns.pkl"
 
+
+MODEL_PATH = os.path.join(BASE_DIR, "best_raincast_model.pkl")
+SCALER_PATH = os.path.join(BASE_DIR, "raincast_scaler.pkl")
+FEATURES_PATH = os.path.join(BASE_DIR, "raincast_feature_columns.pkl")
 # =========================================================
 # LOAD MODEL FILES
 # =========================================================
