@@ -59,7 +59,7 @@ st.markdown("""
 # =========================================================
 # FILE PATHS
 # =========================================================
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_PATH = os.path.join(BASE_DIR, "best_raincast_model.pkl")
 SCALER_PATH = os.path.join(BASE_DIR, "raincast_scaler.pkl")
